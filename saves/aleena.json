@@ -1,0 +1,191 @@
+{
+    "lights": [
+        {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0,
+            "position": [
+                1.2000000476837158,
+                1.0,
+                2.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "models": [
+        {
+            "path": "resources/models/planets/jupiter.glb",
+            "position": [
+                -3.5999999046325684,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/Earth.glb",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/mars.glb",
+            "position": [
+                3.5,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/mercury.glb",
+            "position": [
+                8.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/Neptune.glb",
+            "position": [
+                13.199999809265137,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/saturn.glb",
+            "position": [
+                19.799999237060547,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/sun.glb",
+            "position": [
+                -8.300000190734863,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/uranus.glb",
+            "position": [
+                -13.300000190734863,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/venus.glb",
+            "position": [
+                -17.200000762939453,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

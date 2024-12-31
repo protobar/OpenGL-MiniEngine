@@ -1,0 +1,83 @@
+{
+    "lights": [
+        {
+            "color": [
+                0.9607843160629272,
+                0.9607843160629272,
+                0.9607843160629272
+            ],
+            "intensity": 1.0,
+            "position": [
+                1.0,
+                26.399999618530273,
+                17.899999618530273
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "models": [
+        {
+            "path": "resources/projectModels/tree1.glb",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/swing.glb",
+            "position": [
+                1.5,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/ground.glb",
+            "position": [
+                1.2999999523162842,
+                0.0,
+                -0.6000000238418579
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

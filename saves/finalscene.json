@@ -1,0 +1,489 @@
+{
+    "lights": [
+        {
+            "color": [
+                0.936274528503418,
+                0.8334138989448547,
+                0.35339775681495667
+            ],
+            "intensity": 1.5,
+            "position": [
+                -5.300000190734863,
+                13.699999809265137,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "color": [
+                0.3165128827095032,
+                0.5945310592651367,
+                0.8725489974021912
+            ],
+            "intensity": 0.4000000059604645,
+            "position": [
+                10.399999618530273,
+                10.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0,
+            "position": [
+                0.0,
+                -3.5,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "models": [
+        {
+            "path": "resources/projectModels/ground.glb",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.100000023841858,
+                1.0,
+                1.100000023841858
+            ]
+        },
+        {
+            "path": "resources/projectModels/path.glb",
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/shelter.glb",
+            "position": [
+                -1.7000000476837158,
+                0.8999999761581421,
+                2.5999999046325684
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/swing.glb",
+            "position": [
+                2.0,
+                0.0,
+                -1.899999976158142
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/swing.glb",
+            "position": [
+                2.0,
+                0.0,
+                -0.6000000238418579
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/swingbench.glb",
+            "position": [
+                1.0,
+                0.15000000596046448,
+                -2.9000000953674316
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/shelterbench.glb",
+            "position": [
+                -0.5,
+                0.15000000596046448,
+                2.3499999046325684
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/umbrella.glb",
+            "position": [
+                -2.0,
+                0.3499999940395355,
+                -1.399999976158142
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/foodbench.glb",
+            "position": [
+                -1.7000000476837158,
+                0.3499999940395355,
+                -1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/allfern.glb",
+            "position": [
+                -0.3499999940395355,
+                0.0,
+                3.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/slide.glb",
+            "position": [
+                2.299999952316284,
+                0.05000000074505806,
+                2.5999999046325684
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/bar.glb",
+            "position": [
+                1.5,
+                0.0,
+                2.5999999046325684
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/lamps.glb",
+            "position": [
+                1.350000023841858,
+                0.0,
+                -2.8499999046325684
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/shop.glb",
+            "position": [
+                -0.800000011920929,
+                -0.05000000074505806,
+                -2.700000047683716
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/shop.glb",
+            "position": [
+                -1.399999976158142,
+                -0.05000000074505806,
+                -2.700000047683716
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/shop.glb",
+            "position": [
+                -2.0,
+                -0.05000000074505806,
+                -2.700000047683716
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/alltree.glb",
+            "position": [
+                0.4000000059604645,
+                0.0,
+                1.5499999523162842
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/sandbox.glb",
+            "position": [
+                1.5,
+                0.0,
+                1.600000023841858
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/bin.glb",
+            "position": [
+                0.550000011920929,
+                0.0,
+                -2.200000047683716
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/wall.glb",
+            "position": [
+                3.200000047683716,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/fountain1.glb",
+            "position": [
+                0.0,
+                0.15000000596046448,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/gate.glb",
+            "position": [
+                0.30000001192092896,
+                0.25,
+                -3.125
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/projectModels/allF.glb",
+            "position": [
+                -2.299999952316284,
+                13.199999809265137,
+                -1.0
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

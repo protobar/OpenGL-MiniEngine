@@ -1,0 +1,227 @@
+{
+    "lights": [
+        {
+            "color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "intensity": 1.0,
+            "position": [
+                163.1999969482422,
+                228.89999389648438,
+                238.8000030517578
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "models": [
+        {
+            "path": "resources/models/planets/1.glb",
+            "position": [
+                -5.900000095367432,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/2.glb",
+            "position": [
+                -2.0999999046325684,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/3.glb",
+            "position": [
+                2.200000047683716,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.5,
+                1.5,
+                1.5
+            ]
+        },
+        {
+            "path": "resources/models/planets/4.glb",
+            "position": [
+                6.300000190734863,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/5.glb",
+            "position": [
+                10.199999809265137,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/6.glb",
+            "position": [
+                15.800000190734863,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/7.glb",
+            "position": [
+                22.299999237060547,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/8.glb",
+            "position": [
+                27.5,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/9.glb",
+            "position": [
+                32.099998474121094,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/sun.glb",
+            "position": [
+                -14.100000381469727,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "path": "resources/models/planets/line.glb",
+            "position": [
+                -15.100000381469727,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scaleFactor": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}
