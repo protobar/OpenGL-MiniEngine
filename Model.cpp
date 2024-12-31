@@ -5,10 +5,18 @@
 unsigned int TextureFromFile(const char* path, const std::string& directory, bool gamma)
 {
     std::string filename = std::string(path);
-    // If the path is not absolute, prepend the directory
+    // If the path is not absolute and doesn't start with resources/, prepend the directory
     if (filename.find('/') == std::string::npos && filename.find('\\') == std::string::npos)
     {
-        filename = directory + '/' + filename;
+        // First ensure directory starts with resources/
+        std::string dir = directory;
+        if (dir.substr(0, 10) != "resources/") {
+            dir = "resources/" + dir;
+        }
+        filename = dir + '/' + filename;
+    }
+    else if (filename.substr(0, 10) != "resources/") {
+        filename = "resources/" + filename;
     }
 
     std::cout << "Loading texture from: " << filename << std::endl;
@@ -55,8 +63,18 @@ Model::Model(std::string const& path)
     position = glm::vec3(0.0f);
     rotation = glm::vec3(0.0f);
     scaleFactor = glm::vec3(1.0f);
-    this->path = path;
-    loadModel(path);
+
+    // Prepend "resources/" to the path if it doesn't already start with it
+    std::string fullPath;
+    if (path.substr(0, 10) != "resources/") {
+        fullPath = "resources/" + path;
+    }
+    else {
+        fullPath = path;
+    }
+
+    this->path = fullPath;
+    loadModel(fullPath);
 }
 
 // Function to draw the model with the given shader
@@ -198,32 +216,37 @@ std::vector<Texture> Model::LoadMaterialTextures(aiMaterial* mat, aiTextureType 
     {
         aiString str;
         mat->GetTexture(type, i, &str);
-        // Check if texture was loaded before and if so, continue to next iteration
+        // Check if texture was loaded before
         bool skip = false;
         for (unsigned int j = 0; j < textures_loaded.size(); j++)
         {
             if (std::strcmp(textures_loaded[j].path.data(), str.C_Str()) == 0)
             {
                 textures.push_back(textures_loaded[j]);
-                skip = true; // A texture with the same filepath has already been loaded, continue to next one.
+                skip = true;
                 break;
             }
         }
         if (!skip)
-        {   // If texture hasn't been loaded already, load it
+        {
             Texture texture;
-            std::string texturePath = directory + '/' + std::string(str.C_Str());
+            // Handle path for textures
+            std::string texturePath = std::string(str.C_Str());
+            if (texturePath.substr(0, 10) != "resources/") {
+                texturePath = "resources/" + texturePath;
+            }
+
             std::cout << "Attempting to load texture from path: " << texturePath << std::endl;
             texture.id = TextureFromFile(str.C_Str(), directory);
             if (texture.id == 0)
             {
                 std::cout << "Failed to load texture at path: " << texturePath << std::endl;
-                continue; // Skip adding this texture
+                continue;
             }
             texture.type = typeName;
             texture.path = texturePath;
             textures.push_back(texture);
-            textures_loaded.push_back(texture); // Add to loaded textures
+            textures_loaded.push_back(texture);
         }
     }
     return textures;

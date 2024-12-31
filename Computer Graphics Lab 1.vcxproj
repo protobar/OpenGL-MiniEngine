@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\University\Semesters\Semester 5\Computer Graphics &amp; Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\Libraries\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\University\Semesters\Semester 5\Computer Graphics &amp; Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\Libraries\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Libraries\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)Libraries\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -90,7 +90,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\University\Semesters\Semester 5\Computer Graphics &amp; Visual Designs\Lab\Project Files\Computer Graphics Lab 1\CG-Project-Completed\Computer Graphics Lab 1\Libraries\Include\nlohmann;D:\University\Semesters\Semester 5\Computer Graphics &amp; Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\Libraries\Include\nlohmann;imgui;D:\University\Semesters\Semester 5\Computer Graphics &amp; Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\Libraries\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Libraries/Include/nlohmann;imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

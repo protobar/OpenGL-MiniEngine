@@ -511,12 +511,12 @@ int main()
     // Load skybox textures
     std::vector<std::string> faces
     {
-        "resources/textures/skybox/right.png",
-        "resources/textures/skybox/left.png",
-        "resources/textures/skybox/top.png",
-        "resources/textures/skybox/bottom.png",
-        "resources/textures/skybox/front.png",
-        "resources/textures/skybox/back.png"
+        "resources/textures/skybox/right.jpg",
+        "resources/textures/skybox/left.jpg",
+        "resources/textures/skybox/top.jpg",
+        "resources/textures/skybox/bottom.jpg",
+        "resources/textures/skybox/front.jpg",
+        "resources/textures/skybox/back.jpg"
     };
 
     unsigned int cubemapTexture = loadCubemap(faces);
@@ -617,48 +617,43 @@ int main()
             ImGui::InputText("Model Path", modelPath, IM_ARRAYSIZE(modelPath));
 
             // Button to load model
-            if (ImGui::Button("Load Model"))
-            {
+            if (ImGui::Button("Load Model")) {
                 std::string pathStr = std::string(modelPath);
-                if (!pathStr.empty())
-                {
-                    // Validate the model path ends with a supported extension
+                if (!pathStr.empty()) {
+                    // Validate file extension
                     bool valid = false;
-                    for (const auto& ext : supportedExtensions)
-                    {
+                    for (const auto& ext : supportedExtensions) {
                         if (pathStr.size() >= ext.size() &&
-                            pathStr.compare(pathStr.size() - ext.size(), ext.size(), ext) == 0)
-                        {
+                            pathStr.compare(pathStr.size() - ext.size(), ext.size(), ext) == 0) {
                             valid = true;
                             break;
                         }
                     }
 
-                    if (valid)
-                    {
-                        // Check if the file exists
-                        std::ifstream infile(pathStr);
-                        if (infile.good())
-                        {
-                            try
-                            {
-                                models.emplace_back(pathStr);
-                                std::cout << "Loaded model: " << pathStr << std::endl;
-                                // Optionally, clear the input after loading
+                    if (valid) {
+                        // Add resources/ prefix if not present
+                        std::string fullPath = pathStr;
+                        if (fullPath.substr(0, 10) != "resources/") {
+                            fullPath = "resources/" + fullPath;
+                        }
+
+                        // Check if the file exists with the full path
+                        std::ifstream infile(fullPath);
+                        if (infile.good()) {
+                            try {
+                                models.emplace_back(pathStr);  // Pass original path, Model constructor will handle resources/
+                                std::cout << "Loaded model: " << fullPath << std::endl;
                                 modelPath[0] = '\0';
                             }
-                            catch (const std::exception& e)
-                            {
+                            catch (const std::exception& e) {
                                 std::cout << "Failed to load model: " << e.what() << std::endl;
                             }
                         }
-                        else
-                        {
-                            std::cout << "Model file does not exist: " << pathStr << std::endl;
+                        else {
+                            std::cout << "Model file does not exist: " << fullPath << std::endl;
                         }
                     }
-                    else
-                    {
+                    else {
                         std::cout << "Invalid model file extension. Supported extensions are: .obj, .fbx, .dae, .3ds, .ply, .glb, .gltf" << std::endl;
                     }
                 }

@@ -4,3 +4,9 @@ D:\University\Semesters\Semester 5\Computer Graphics & Visual Designs\Lab\Projec
 D:\University\Semesters\Semester 5\Computer Graphics & Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\x64\Debug\zlibd1.dll
 D:\University\Semesters\Semester 5\Computer Graphics & Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\x64\Debug\pugixml.dll
 D:\University\Semesters\Semester 5\Computer Graphics & Visual Designs\Lab\Project Files\Computer Graphics Lab 1\Computer Graphics Lab 1\Computer.5DBDB477\x64\Debug\Computer.EDC79D31.Up2Date
+D:\Github\OpenGL-MiniEngine\x64\Debug\assimp-vc143-mtd.dll
+D:\Github\OpenGL-MiniEngine\x64\Debug\poly2tri.dll
+D:\Github\OpenGL-MiniEngine\x64\Debug\minizip.dll
+D:\Github\OpenGL-MiniEngine\x64\Debug\zlibd1.dll
+D:\Github\OpenGL-MiniEngine\x64\Debug\pugixml.dll
+D:\Github\OpenGL-MiniEngine\Computer.5DBDB477\x64\Debug\Computer.EDC79D31.Up2Date
